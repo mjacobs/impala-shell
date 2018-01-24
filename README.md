@@ -5,7 +5,7 @@
 ```
 $ virtualenv ~/path/to/my_virtualenv   # <-- This is a path of your choosing.
 $ source ~/path/to/my_virtualenv/bin/activate
-(my_virtualenv) $ pip install git+git://github.mtv.cloudera.com/dknupp/impala-shell.git
+(my_virtualenv) $ pip install git+git://github.com/dknupp/impala-shell.git
 (my_virtualenv) $ impala-shell -i my_impalad.foo.cloudera.com
 ```
 
@@ -68,7 +68,7 @@ always tell which environment you're working in.
 system python environment, you'll probably have to sudo the following command.)
 
 ```
-(my_virtualenv) $ pip install git+git://github.mtv.cloudera.com/dknupp/impala-shell.git
+(my_virtualenv) $ pip install git+git://github.com/dknupp/impala-shell.git
 ```
 
 
